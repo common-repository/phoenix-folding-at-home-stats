@@ -1,0 +1,35 @@
+.phoenix-fah-stats table tbody tr.fah-logo img {
+  display: block;
+  width: 100%;
+  text-align: center; }
+.phoenix-fah-stats table tbody tr td.string {
+  text-align: left; }
+.phoenix-fah-stats table tbody tr td.value {
+  text-align: right; }
+.phoenix-fah-stats table tbody tr.fah-tagline td div.fah-tagline_logo {
+  text-align: center;
+  float: left;
+  padding-right: 15px; }
+.phoenix-fah-stats table tbody tr.fah-tagline td div.fah-tagline_text p {
+  margin: 0; }
+.phoenix-fah-stats table tbody tr.fah-generated_date td {
+  white-space: nowrap; }
+
+.phoenix-error {
+  padding: 1em 2em 1em 3.5em !important;
+  margin: 0 0 2em !important;
+  position: relative;
+  background-color: #dddddd;
+  color: #333333;
+  border-top: 3px solid #b81c23;
+  list-style: none outside !important;
+  width: auto;
+  word-wrap: break-word; }
+  .phoenix-error .button {
+    float: right; }
+  .phoenix-error li {
+    list-style: none outside !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important; }
+
+/*# sourceMappingURL=phoenix-folding.css.map */

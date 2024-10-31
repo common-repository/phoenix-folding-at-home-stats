@@ -1,0 +1,73 @@
+.phoenix-fah-stats {
+  table {
+    // margin: auto;
+
+    thead tr,
+    .fah-donor_teams_header,
+    .fah-team_donors_header {
+      th {
+        //text-align: center;
+      }
+
+    }
+
+    tbody {
+      tr.fah-logo img {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      tr {
+        td.string {
+          text-align: left;
+        }
+
+        td.value {
+          text-align: right;
+        }
+      }
+
+      tr.fah-tagline {
+        td {
+          div.fah-tagline_logo {
+
+            text-align: center;
+            float: left;
+            padding-right: 15px;
+          }
+
+          div.fah-tagline_text p {
+            margin: 0;
+          }
+        }
+      }
+
+      tr.fah-generated_date td {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.phoenix-error {
+  padding: 1em 2em 1em 3.5em !important;
+  margin: 0 0 2em !important;
+  position: relative;
+  background-color: #dddddd;
+  color: #333333;
+  border-top: 3px solid #b81c23;
+  list-style: none outside !important;
+  width: auto;
+  word-wrap: break-word;
+
+  .button {
+    float: right;
+  }
+
+  li {
+    list-style: none outside !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+}
